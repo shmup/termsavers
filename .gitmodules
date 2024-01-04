@@ -1,0 +1,21 @@
+[submodule "asciiquarium"]
+	path = asciiquarium
+	url = git@github.com:shmup/asciiquarium.git
+[submodule "chafa"]
+	path = chafa
+	url = git@github.com:shmup/chafa.git
+[submodule "trekscii"]
+	path = trekscii
+	url = git@github.com:shmup/trekscii.git
+[submodule "pipes.sh"]
+	path = pipes.sh
+	url = git@github.com:shmup/pipes.sh.git
+[submodule "rain.sh"]
+	path = rain.sh
+	url = git@github.com:shmup/rain.sh.git
+[submodule "weave.sh"]
+	path = weave.sh
+	url = git@github.com:shmup/weave.sh.git
+[submodule "neo"]
+	path = neo
+	url = git@github.com:shmup/neo.git

@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+if ! command -v fzy &>/dev/null; then
+  echo "Requires fzy"
+  exit 1
+fi
+
+selected_binary=$(find -L bin -type f | fzy)
+
+if [[ -z $selected_binary ]]; then
+  echo "xoxo"
+  exit 0
+fi
+
+"$selected_binary"
+exec $0

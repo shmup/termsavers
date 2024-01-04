@@ -4,6 +4,7 @@
 [submodule "chafa"]
 	path = chafa
 	url = git@github.com:shmup/chafa.git
+        ignore = dirty
 [submodule "trekscii"]
 	path = trekscii
 	url = git@github.com:shmup/trekscii.git
@@ -19,3 +20,4 @@
 [submodule "neo"]
 	path = neo
 	url = git@github.com:shmup/neo.git
+        ignore = dirty

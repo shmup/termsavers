@@ -1,5 +1,7 @@
 .PHONY: chafa neo
 
+all: chafa neo trekscii
+
 chafa:
 	cd chafa && \
 	./autogen.sh && \

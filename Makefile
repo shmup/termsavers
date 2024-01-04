@@ -1,6 +1,6 @@
-.PHONY: chafa neo
+.PHONY: chafa init neo trekscii update
 
-all: chafa neo trekscii
+all: update chafa neo trekscii
 
 chafa:
 	cd chafa && \
@@ -8,6 +8,9 @@ chafa:
 	./configure --prefix=`pwd`/dist --enable-gtk-doc && \
 	$(MAKE) -j && \
 	$(MAKE) install
+
+init:
+	git submodule update --init
 
 neo:
 	cd neo && \
@@ -19,3 +22,7 @@ neo:
 trekscii:
 	cd trekscii && \
 	$(MAKE) -j
+
+update:
+	git submodule update --remote --merge
+
